@@ -1,0 +1,34 @@
+#btn{
+    height: 100px;
+    background-color: cadetblue;
+
+}
+
+#btn:hover{
+    background-color:cyan;
+    cursor: pointer;
+}
+
+section{
+    padding: 20px;
+}
+span{
+    background-color:darkorange;
+    color: floralwhite;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+#container{
+    height: 50px;
+    background-color: goldenrod;
+    opacity: 0;
+}
+
+span:hover{
+    cursor: pointer;
+}
+
+span:hover ~ #container{
+    opacity: 1;
+}
