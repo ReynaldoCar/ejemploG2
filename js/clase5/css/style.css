@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: serif;
+
+}
+
+
+div.card{
+    background-color: gray;
+    width: 38%;
+    padding: 15px;
+}
+
+.card .cardMain{
+    background-color: gold;
+    padding: 15px;
+    box-shadow: 0px 0px 12px 1px black;
+}
+
+.card .cardMain .title{
+    color: gray;
+    font-size: 27px;
+    padding: 5px;
+    box-shadow: -5px -5px 20px 1px white;
+}
+
+.card .cardMain .img > div{
+    width: 330px;
+    height: 330px;
+    box-shadow: 0px 0px 12px 1px black;
+    background-image: url(../img/WhatsApp\ Image\ 2021-10-07\ at\ 7.42.20\ PM\ \(2\).jpeg);
+    background-position: center 37%;
+    background-repeat: no-repeat;
+    margin: auto;
+
+}
+
+.card .cardMain .stars{
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+
+}
+
+.card .cardMain .stars img{
+    width: 100%;
+}
+
+
+.card .cardMain .info{
+    border: 5px solid orange;
+    margin-top: 10px;
+    padding: 2px;
+}
+
+.card .cardMain .info .type{
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.card .cardMain .description{
+    text-align: justify;
+    font-size: 24px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.card .cardMain .num{
+    font-weight: bold;
+    text-align: right;
+    border-top: 2px solid #000;
+    margin-top: 30px;
+}
